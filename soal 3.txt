@@ -1,0 +1,5 @@
+angka_array = [1, 3, 5, 7, 9]
+
+angka_array = [11 - x for x in angka_array]
+
+print("Array setelah diubah:", angka_array)

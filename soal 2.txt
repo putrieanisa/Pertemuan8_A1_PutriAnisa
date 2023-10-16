@@ -1,0 +1,8 @@
+angka_array = [30, 7, 5, 8, 35]
+
+cek_angka = int(input("Masukkan angka yang ingin dicari: "))
+
+if cek_angka in angka_array:
+    print("Ditemukan")
+else:
+    print("Tidak ditemukan")

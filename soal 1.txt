@@ -1,0 +1,9 @@
+angka_array = []
+for i in range(5):
+    angka = float(input(f"Masukkan angka ke-{i + 1}: "))
+    angka_array.append(angka)
+
+rata_rata = sum(angka_array) / len(angka_array)
+
+print(f"Angka yang dimasukkan: {angka_array}")
+print(f"Rata-rata array: {rata_rata}")
